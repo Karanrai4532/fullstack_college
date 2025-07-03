@@ -1,0 +1,13 @@
+div{
+    height: 200px;
+    width: 200px;
+    display:block;
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-left: 550px;
+    padding-top: 150px;
+    background-color: blanchedalmond;
+}
+body{
+    text-align: center;
+}
