@@ -1,14 +1,15 @@
 #container{
-    height: 300px;
+    height: 350px;
     width: 400px;
     border: 2px solid black;   
     text-align: center;
     margin-top: 220px;
     margin-left: 500px;
     background: transparent;
-    backdrop-filter:blur(20px);background-color: rgb(250, 249, 252);
+    backdrop-filter:blur(20px);background-color: rgb(212, 204, 228);
     box-shadow: 0 0 10px;
-    display: flex;
+
+    
     
 }
 body{
@@ -17,11 +18,12 @@ body{
 img{
     height:100px;
     display: flex;
-    padding-left: 50px;
-    padding-top: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
    border: 2px solid black;
 }
 .info{
-      margin-left: 100px;
-
+      margin-left: 190px;
+      margin-top: -120px;
+      
 }
