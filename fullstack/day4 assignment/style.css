@@ -1,0 +1,144 @@
+#container{
+    height: 400px;
+    width: 1000px;
+    border: 2px solid black;
+    margin-left: 150px;
+    margin-top: 100px;
+    background-color:rgb(143, 142, 142);
+     backdrop-filter:blur(20px);
+    box-shadow: 0 0 10px;
+}
+.botton{
+ display: flex; 
+    justify-content: space-evenly;
+}
+
+.keys{
+    height: 25px;
+    width: 35px;
+    border: 2px solid black; 
+   flex-direction: row;
+    text-align: center;
+    background-color: black;
+    color: aliceblue; border-radius: 10%;
+    padding-top: 4PX;
+    cursor: pointer;
+}
+.botton2{
+    display: flex; 
+    justify-content: space-evenly;
+}
+.keys2{
+    height: 30px;
+    width: 60px;
+    border: 2px solid black; 
+   flex-direction: row;
+    text-align: center;
+    background-color: black;
+    color: aliceblue; border-radius: 10%;
+    padding-top: 10px;
+}
+.botton3{
+    display: flex; 
+    justify-content: space-evenly;
+}
+.keys3{
+    height: 30px;
+    width: 60px;
+    border: 2px solid black; 
+   flex-direction: row;
+    text-align: center;
+    background-color: black;
+    color: aliceblue; border-radius: 10%;
+    padding-top: 10px;
+}
+.botton4{
+    display: flex; 
+    justify-content: space-evenly;
+}
+.keys4{
+     height: 30px;
+    width: 60px;
+    border: 2px solid black; 
+   flex-direction: row;
+    text-align: center;
+    background-color: black;
+    color: aliceblue; border-radius: 10%;
+    padding-top: 10px;
+}
+.keysenter{
+     
+     height: 30px;
+    width: 90px;
+    border: 2px solid black; 
+   flex-direction: row;
+    text-align: center;
+    background-color: black;
+    color: aliceblue; border-radius: 10%;
+    padding-top: 10px;
+
+}
+.botton5{
+    display: flex; 
+    justify-content: space-evenly;
+}
+.keys5{
+     height: 30px;
+    width: 60px;
+    border: 2px solid black; 
+   flex-direction: row;
+    text-align: center;
+    background-color: black;
+    color: aliceblue; border-radius: 10%;
+    padding-top: 10px;
+}
+.keysshift{
+    height: 30px;
+    width: 100px;
+    border: 2px solid black; 
+   flex-direction: row;
+    text-align: center;
+    background-color: black;
+    color: aliceblue; border-radius: 10%;
+    padding-top: 10px;
+}
+.botton6{
+     display: flex; 
+    justify-content: space-evenly;
+}
+.keysspace{
+     height: 30px;
+    width: 200px;
+    border: 2px solid black; 
+   flex-direction: row;
+    text-align: center;
+    background-color: black;
+    color: aliceblue; border-radius: 10%;
+    padding-top: 10px;
+}
+.keys6{
+     height: 30px;
+    width: 60px;
+    border: 2px solid black; 
+   flex-direction: row;
+    text-align: center;
+    background-color: black;
+    color: aliceblue; border-radius: 10%;
+    padding-top: 10px;
+}
+.keys7{
+ height: 25px;
+    width: 35px;
+    border: 2px solid black; 
+   flex-direction: row;
+    text-align: center;
+    background-color: black;
+    color: aliceblue; border-radius: 10%;
+    padding-top: 4PX;
+}
+h1{
+    text-align: center;
+}
+.keys:hover, .keys2:hover,.keys3:hover,.keys4:hover,.keys5:hover,.keys6:hover,.keys7:hover,.keysspace:hover {
+    box-shadow: 0 0 12px 4px rgb(253, 254, 255);
+}
