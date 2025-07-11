@@ -1,0 +1,65 @@
+#contaioner{
+    height: 600px;
+    width: 85%;
+    border: 2px solid black;
+    gap: 10px;
+    margin: auto;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(4,1fr);
+}
+.box{
+     border: 2px solid black;
+     border-radius: 9px;
+    
+}
+#contaioner > div:nth-child(1){
+    background: green;
+    grid-area: 1/1/2/2;
+}
+#contaioner > div:nth-child(2){
+   background: red;
+   grid-area: 3/4/2/1;
+}
+#contaioner > div:nth-child(3){
+    background: purple;
+}
+#contaioner > div:nth-child(4){
+   background: gold; 
+   grid-area:5/5/3/2
+}
+#contaioner > div:nth-child(5){
+    background: blueviolet;
+}
+#contaioner > div:nth-child(6){
+   background: blue;
+}
+#contaioner > div:nth-child(7){
+  background: yellowgreen;
+}
+#contaioner > div:nth-child(8){
+   background: grey;
+}
+#contaioner > div:nth-child(9){
+     background: rgb(129, 173, 27);
+     grid-area: 3/1/6/2;
+} 
+#contaioner > div:nth-child(10){
+      background: fuchsia;
+}
+#contaioner > div:nth-child(11){
+    background: chocolate;
+}
+#contaioner > div:nth-child(12){
+     background: rgb(22, 128, 94);
+}
+ #contaioner > div:nth-child(13){
+     background: rgb(160, 10, 194);
+}
+#contaioner > div:nth-child(14){
+     background: rgb(193, 66, 66);
+
+}
+@media (min-width:225px) {
+    
+}

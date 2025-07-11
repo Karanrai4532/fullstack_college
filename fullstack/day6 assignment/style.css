@@ -1,0 +1,33 @@
+.container{
+    height: 340px;
+    width: 320px;
+    border: 2px solid black; 
+    padding: 10px;
+    background: black;
+    
+}
+h1{
+    margin-left: 100px;
+    text-decoration: underline;
+}
+.box{
+    border: 2px solid rgb(247, 243, 243);
+    height: 45px ;
+    width: 40px;
+     margin-left: 10px;
+     text-align: center;
+    font-size:20px;
+    background: #8a8080;
+}
+.boxs{
+    display: grid;
+     grid-template-columns: repeat(4,1fr);
+    gap: 10px; 
+   padding: 20px;
+    background-color: rgb(5, 5, 6);
+}
+#row{
+    height: 60px;
+border: 2px solid rgb(0, 0, 0);
+background-color: aliceblue;
+}
